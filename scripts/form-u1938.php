@@ -37,10 +37,10 @@ $form = array(
 			'label' => '¿Qué courrier quieres usar?',
 			'required' => false,
 			'optionItems' => array(
-				'A medida:',
+				'Custom:',
 				'Etiqueta de casilla',
 				'Etiqueta de casilla',
-				'A medida:'
+				'Custom:'
 			),
 			'errors' => array(
 				'format' => 'El campo \'¿Qué courrier quieres usar?\' contiene un valor no válido.'

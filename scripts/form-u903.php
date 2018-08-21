@@ -34,9 +34,36 @@ $form = array(
 		'custom_U906' => array(
 			'order' => 1,
 			'type' => 'string',
-			'label' => '¿Desde dónde envías?',
+			'label' => 'CALLE',
 			'required' => false,
 			'errors' => array(
+			)
+		),
+		'custom_U3395' => array(
+			'order' => 2,
+			'type' => 'string',
+			'label' => 'NÚMERO',
+			'required' => true,
+			'errors' => array(
+				'required' => 'El campo \'NÚMERO\' es obligatorio.'
+			)
+		),
+		'custom_U3506' => array(
+			'order' => 3,
+			'type' => 'string',
+			'label' => 'COMUNA',
+			'required' => true,
+			'errors' => array(
+				'required' => 'El campo \'COMUNA\' es obligatorio.'
+			)
+		),
+		'custom_U3531' => array(
+			'order' => 4,
+			'type' => 'string',
+			'label' => 'CIUDAD',
+			'required' => true,
+			'errors' => array(
+				'required' => 'El campo \'CIUDAD\' es obligatorio.'
 			)
 		)
 	)
